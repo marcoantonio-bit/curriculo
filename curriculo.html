@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Antonio Canuto De La Cruz - Currículum Vitae</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cv-container {
+            width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            background: white;
+        }
+
+        .left-column {
+            width: 35%;
+            background: #2c5aa0;
+            color: white;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .photo-section {
+            height: 350px;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .profile-photo {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid #87ceeb;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .name-section {
+            background: #1e3d72;
+            padding: 50px 40px;
+            text-align: left;
+        }
+
+        .name {
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 0.9;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        .profession {
+            font-size: 14px;
+            color: #87ceeb;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+
+        .left-content {
+            padding: 40px;
+            flex: 1;
+        }
+
+        .left-section {
+            margin-bottom: 45px;
+        }
+
+        .left-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #87ceeb;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .profile-text {
+            font-size: 12px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        .contact-info {
+            font-size: 11px;
+            line-height: 1.6;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+            word-break: break-word;
+        }
+
+        .right-column {
+            width: 65%;
+            padding: 50px;
+            background: white;
+        }
+
+        .right-section {
+            margin-bottom: 45px;
+        }
+
+        .section-header {
+            background: #2c5aa0;
+            color: white;
+            padding: 12px 20px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .job-item, .education-item {
+            margin-bottom: 35px;
+        }
+
+        .job-title, .degree-title {
+            color: #4db8d8;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        .company-info, .institution-info {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .job-description, .education-description {
+            font-size: 11px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .job-description ul, .education-description ul {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+
+        .job-description li, .education-description li {
+            margin-bottom: 5px;
+        }
+
+        .references-item {
+            margin-bottom: 20px;
+            font-size: 11px;
+            line-height: 1.4;
+        }
+
+        .reference-name {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .reference-position {
+            color: #666;
+            font-style: italic;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .cv-container {
+                width: 100%;
+                min-height: 100vh;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .cv-container {
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            .left-column {
+                width: 100%;
+            }
+            
+            .right-column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="left-column">
+            <div class="photo-section">
+                <img src="antoniocanuto.jpg" alt="Fotografía de Marco Antonio Canuto De La Cruz" class="profile-photo">
+            </div>
+
+            <div class="name-section">
+                <h1 class="name">MARCO<br>ANTONIO<br>CANUTO<br>DE LA CRUZ</h1>
+                <p class="profession">Ingeniería en Tecnologías de la Información e Innovación Digital</p>
+            </div>
+            
+            <div class="left-content">
+                <div class="left-section">
+                    <h2 class="left-title">Datos Profesionales</h2>
+                    <p class="profile-text">
+                        Estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital con certificación CISCO. Especializado en desarrollo de software y sistemas de red con enfoque en soluciones tecnológicas innovadoras y escalables.
+                    </p>
+                </div>
+
+                <div class="left-section">
+                    <h2 class="left-title">Acerca de mí</h2>
+                    <p class="profile-text">
+                        Tengo 20 años, nací el 22 de diciembre de 2004. Actualmente estoy estudiando Ingeniería en Tecnologías de la Información e Innovación Digital y también trabajo en una barbería de sabado a domingo, donde desarrollo habilidades de atención al cliente, responsabilidad y trabajo en equipo.
+                    </p>
+                </div>
+
+                <div class="left-section">
+                    <h2 class="left-title">Contáctame</h2>
+                    <div class="contact-info">
+                        <p><strong>Teléfono:</strong> 720-361-0206</p>
+                        <p><strong>Ubicación:</strong> San Felipe del Progreso, Estado de México</p>
+                        <p><strong>Email:</strong> marcoantoniocanuto771@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="right-section">
+                <div class="section-header">Trayectoria Académica</div>
+                
+                <div class="education-item">
+                    <h3 class="degree-title">Universidad Politécnica de Atlacomulco</h3>
+                    <p class="institution-info">Ingeniería en Tecnologías de la Información e Innovación Digital | En curso</p>
+                    <div class="education-description">
+                        <ul>
+                            <li>Especialización en desarrollo de software y sistemas</li>
+                            <li>Proyectos de innovación tecnológica</li>
+                            <li>Formación integral en tecnologías emergentes</li>
+                            <li>Desarrollo de competencias técnicas y profesionales</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <h3 class="degree-title">Certificación CISCO</h3>
+                    <p class="institution-info">CISCO Systems | Certificación completada</p>
+                    <div class="education-description">
+                        <ul>
+                            <li>Especialización en redes y comunicaciones</li>
+                            <li>Configuración y administración de equipos CISCO</li>
+                            <li>Protocolos de red y seguridad</li>
+                            <li>Solución de problemas de conectividad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="section-header">Habilidades Técnicas</div>
+                
+                <div class="job-item">
+                    <h3 class="job-title">Lenguajes de Programación</h3>
+                    <div class="job-description">
+                        <p><strong>Principales:</strong> Java, Python, JavaScript, HTML/CSS, SQL</p>
+                        <p><strong>Frameworks y tecnologías:</strong> Git, Visual Studio Code, MySQL, Linux, Windows Server</p>
+                    </div>
+                </div>
+
+                <div class="job-item">
+                    <h3 class="job-title">Sistemas y Redes</h3>
+                    <div class="job-description">
+                        <p><strong>Redes:</strong> CISCO Networking, TCP/IP, configuración de routers y switches</p>
+                        <p><strong>Sistemas operativos:</strong> Linux (Ubuntu, CentOS), Windows Server, administración de servicios</p>
+                    </div>
+                </div>
+
+                <div class="job-item">
+                    <h3 class="job-title">Herramientas y Software</h3>
+                    <div class="job-description">
+                        <p><strong>Oficina:</strong> Microsoft Office Suite (Word, Excel, PowerPoint, Access)</p>
+                        <p><strong>Desarrollo:</strong> Visual Studio Code, Eclipse, NetBeans, MySQL Workbench</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="section-header">Experiencia Laboral</div>
+                
+                <div class="references-item">
+                    <p class="reference-name">Barbería </p>
+                    <p class="reference-position">Barbero y Asistente | 2022 - Actualidad</p>
+                    <p class="reference-position">Atención al cliente, manejo de agenda, asesoramiento en estilos y cortes de cabello, y trabajo en equipo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
